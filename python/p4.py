@@ -12,3 +12,4 @@ else:
         print(input_num2,"is the Smallest Number")
     else:
         print(input_num3,"is the Smallest Number")
+        
