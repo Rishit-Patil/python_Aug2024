@@ -1,0 +1,1 @@
+#Find Sum of The Series : n+n^2+n^3.......mth term
