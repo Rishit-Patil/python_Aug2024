@@ -1,0 +1,1 @@
+#Program to find the Second Smallest Digit a Number
