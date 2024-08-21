@@ -1,10 +1,10 @@
 #Program to find the Second Smallest Digit a Number
-number=int(input("Enter a Number to Find its Second Smallest Digit: "))
+sample_number = input("Enter a number: ")
 string=[]
-old = number
-while number>0:
-    k=number%10
-    string.append(k)
-    number=number//10
-ascending_string = sorted(string)
-print("The Second Smallest Digit in",old,"is :", ascending_string[1])
+for i in str(sample_number):
+    if i not in string:
+        string.append(i)
+
+assending_str = sorted(string)
+
+print('The second smallest digit is: ',assending_str[1])
